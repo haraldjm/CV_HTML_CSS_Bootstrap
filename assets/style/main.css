@@ -1,10 +1,309 @@
 /*--------
-Header
+General
 --------*/
+body{
+    position: relative;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 40px;
+    color: #43305e;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 80px;
+    color: #43305e;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: #43305e;
+    margin-left: 20px;
+}
+
+
+.obj{
+    font-size: 26px;
+}
+
+h6{
+    font-size: 30px;
+    list-style-type: none;
+    color: #a56ac4;
+    font-weight: bold;
+}
+
+p{
+    font-size: 20px;
+    color: #858585;
+    padding-right: 10px;
+    margin-top: -2px;
+    padding-left: 10px;
+
+}
+
 /*--------
-Imágen
+Sección General
 --------*/
-.container img{
-    width: 300px;
-    height: 300px;
+section{
+
+    padding-left: 400px;
+    overflow: hidden;
+    height: 100vh;
+    border: 1px solid #b0b0b0;
+    padding-right: 50px;
+}
+
+section li{
+    font-size: 30px;
+    list-style-type: none;
+    color: #a56ac4;
+    font-weight: bold;
+}
+
+.fechas{
+    float: right;
+    padding-left: 10%;
+    color: #a56ac4;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+
+
+
+/*--------
+Nav Bar
+--------*/
+
+.navbar{
+    background: #9478bf;
+    text-align: center;
+    height: 100%;
+    width: 19%;
+    padding-right: 20px;
+
+}
+
+.navbar img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-left: 50px;
+    margin-right: auto;
+}
+
+.navbar ul{
+    list-style-type: none;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar li{
+    margin-top: 10px;
+}
+
+
+.bref a:hover,
+.bref .active{
+  color: #fff;
+}
+
+.navsoc a{
+     font-size: 15px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: #3e4042;
+     color: #fff;
+     line-height: 1;
+     margin-right: 10px;
+     border-radius: 50%;
+     width: 30px;
+     height: 30px;
+}
+
+.navsoc a:hover{
+    background: #8a8a8a;
+}
+
+.navsoc{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+/*--------
+Inicio
+--------*/
+
+.ini{
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+.ini span{
+    color: #a56ac4;
+
+}
+
+.social a{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #3e4042;
+  color: #fff;
+  line-height: 1;
+  margin-right: 20px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+}
+
+.social a:hover{
+  background: #a56ac4;
+}
+
+
+
+.social{
+  margin-top: 30px;
+  display: flex;
+  margin-left: 40px;
+}
+
+
+
+/*--------
+Educación
+--------*/
+
+.edu{
+    vertical-align: middle;
+    padding-top: 100px;
+    padding-bottom: auto;
+}
+
+.edu ul{
+    margin-right: 20px;
+}
+
+
+/*--------
+Experiencia
+--------*/
+
+.exp{
+    vertical-align: middle;
+    padding-top: 5%;
+    padding-bottom: auto;
+}
+
+.exp ul{
+    margin-right: 20px;
+}
+
+
+
+
+/*--------
+Habilidades
+--------*/
+
+.hab{
+    vertical-align: middle;
+    padding-top: 9%;
+    padding-bottom: auto;
+}
+
+.hab ul{
+    margin-right: 20px;
+}
+
+
+.logos{
+    opacity: 0.6;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 40px;
+
+}
+
+.logos img{
+    margin-right: 10px;
+    width: 5%;
+}
+
+/*--------
+Contacto
+--------*/
+
+.con{
+    vertical-align: middle;
+    padding-top: 9%;
+    padding-bottom: auto;
+}
+
+
+
+.con .bi-envelope{
+    display: flex;
+    font-size: 40px;
+    color: #a56ac4;
+    line-height: 1;
+    padding-left: 40px;
+
+}
+
+.mensaje{
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.con form {
+  width: 60%;
+  height: 50%;
+  padding: 30px;
+  padding-left: 30px;
+  align-items: center
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.2);
+}
+
+.con form input {
+  height: 44px;
+}
+
+.con textarea{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 15px;
+}
+
+.con button{
+    background: #a56ac4;
+    border: 0;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.con button:hover{
+    background: #c9abf7;
+}
+
+.con form-group{
+    padding-bottom: 8px;
 }
